@@ -22,3 +22,7 @@ The look and feel is achieved with the simple yet powerful [Bootstrap](http://tw
 Assuming you are not familiar with [RequireJS](http://requirejs.org/) (which you totally should as this example relies on it), the main file for this example is on public/main.js. The actual Main view is on public/components/Main.js and it's HTML is on public/components/templates/Main.html. Once you are familiar with RequireJS and these 3 files you should be able to understand the rest of the code. 
 
 If you still have questions, do not hesitate in contact me on [twitter](http://twitter.com/erickrdch), my [blog](http://erickrdch.com) or here as an [issue](https://github.com/erickrdch/backbone-require/issues).
+
+## Licence ##
+
+This example is under an [MIT](http://opensource.org/licenses/MIT) licence.
