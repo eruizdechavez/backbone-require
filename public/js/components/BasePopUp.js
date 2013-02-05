@@ -30,7 +30,7 @@ define(['backbone', 'text!./templates/BasePopUp.html'], function(Backbone, templ
 				this.$('.modal-footer').remove();
 			}
 
-			this.$el.appendTo('body').modal();
+			this.$el.appendTo('body').modal().on('hidden', this.remove);
 
 			return this;
 		},
